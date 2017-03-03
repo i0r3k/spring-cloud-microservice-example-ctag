@@ -16,7 +16,6 @@
 	</parent>
 
 	<properties>
-		<docker.image.prefix>kbastani</docker.image.prefix>
 	</properties>
 
 	<build>

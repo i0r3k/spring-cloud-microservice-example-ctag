@@ -9,15 +9,10 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>users-microservice</module>
         <module>discovery-microservice</module>
         <module>api-gateway-microservice</module>
-        <module>recommendation-microservice</module>
         <module>config-microservice</module>
         <module>hystrix-dashboard</module>
-        <module>consul-microservice</module>
-        <module>movie-microservice</module>
-        <module>movies-ui</module>
     </modules>
 
     <parent>
@@ -32,6 +27,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
         <docker.plugin.version>0.4.13</docker.plugin.version>
+        <docker.image.prefix>172.25.17.4:5000/msprj</docker.image.prefix>
     </properties>
 
     <dependencies>
