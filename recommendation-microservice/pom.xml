@@ -15,9 +15,8 @@
     <version>0.1.0</version>
     <packaging>jar</packaging>
 
-    <properties>
-        <docker.image.prefix>kbastani</docker.image.prefix>
-    </properties>
+    <properties>    
+</properties>
 
     <dependencies>
         <dependency>
