@@ -15,7 +15,6 @@
         <module>recommendation-microservice</module>
         <module>config-microservice</module>
         <module>hystrix-dashboard</module>
-        <module>consul-microservice</module>
         <module>movie-microservice</module>
         <module>movies-ui</module>
     </modules>
