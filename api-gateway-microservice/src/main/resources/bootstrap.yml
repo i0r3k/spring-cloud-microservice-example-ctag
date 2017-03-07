@@ -19,7 +19,3 @@ endpoints:
     enabled: true
   health:
     sensitive: false
-
-eureka:
-  instance:
-    hostname: gateway
