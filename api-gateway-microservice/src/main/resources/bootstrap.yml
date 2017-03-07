@@ -4,7 +4,7 @@ spring:
   cloud:
     config:
       uri: http://configserver:8888
-      discovery
+      discovery:
         enabled: true  
 encrypt:
   failOnError: false
