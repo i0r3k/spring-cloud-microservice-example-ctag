@@ -6,8 +6,6 @@ spring:
       uri: http://configserver:8888
 encrypt:
   failOnError: false
-server:
-  port: 10000
 
 sidecar:
   port: 8000
