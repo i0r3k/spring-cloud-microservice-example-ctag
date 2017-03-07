@@ -15,4 +15,4 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/kbastani/spring-boot-microservice-config
+          uri: http://172.25.17.7/msprj/microservice-config-dev.git
