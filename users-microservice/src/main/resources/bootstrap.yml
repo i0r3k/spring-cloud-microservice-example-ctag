@@ -3,6 +3,17 @@ spring:
     name: user
   cloud:
     config:
-      uri: http://configserver:8888
+      uri: http://172.25.17.5:8888
 encrypt:
   failOnError: false
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://discovery:8761/eureka/
+  instance:
+    preferIpAddress: true
+
+ribbon:
+  eureka:
+    enabled: true
