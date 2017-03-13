@@ -1,5 +1,5 @@
 server:
-  port: 11000
+  port: 1000
 
 sidecar:
   port: 8100
