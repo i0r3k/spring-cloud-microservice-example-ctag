@@ -9,8 +9,7 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>api-gateway-microservice</module>
-        <module>config-microservice</module>
+        <module>users-microservice</module>
     </modules>
 
     <parent>
