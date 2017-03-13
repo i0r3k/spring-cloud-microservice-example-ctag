@@ -15,6 +15,6 @@ spring:
     config:
       server:
         git:
-          uri: http://172.25.17.7/mingyang.cai/aaaaa.git
+          uri: http://172.25.17.7/msprj/microservice-config-dev.git
           username: mingyang.cai@accenture.com
           password: mycai111
