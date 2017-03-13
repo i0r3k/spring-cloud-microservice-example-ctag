@@ -7,13 +7,3 @@ spring:
 encrypt:
   failOnError: false
 
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://discovery:8761/eureka/
-  instance:
-    preferIpAddress: true
-
-ribbon:
-  eureka:
-    enabled: true
