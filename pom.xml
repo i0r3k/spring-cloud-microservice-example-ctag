@@ -115,15 +115,4 @@
             </snapshots>
         </pluginRepository>
     </pluginRepositories>
-    <build>
-	<resources>
-		<resource>
-			<filtering>true</filtering>
-			<directory>docker</directory>
-			<includes>
-				<include>**</include>
-			</includes>
-		</resource>
-	</resources>
-    </build>
 </project>
