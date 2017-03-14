@@ -47,7 +47,7 @@
 				</executions>
 				<configuration>
 					<imageName>${docker.image.prefix}/${project.artifactId}</imageName>
-					<dockerDirectory>target/classes</dockerDirectory>
+					<dockerDirectory>${project.basedir}/target/classes</dockerDirectory>
 					<resources>
 						<resource>
 							<targetPath>/</targetPath>
