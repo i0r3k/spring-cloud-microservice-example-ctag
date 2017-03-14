@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: users
-        image: 172.25.17.4:5000/msprj/users-microservice
+        image: @docker.image.prefix@/users-microservice
         ports:
         - containerPort: 9000
 ---

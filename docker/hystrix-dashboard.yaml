@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: hystrix-dashboard
-        image: 172.25.17.4:5000/msprj/hystrix-dashboard
+        image: @docker.image.prefix@/hystrix-dashboard
         ports:
         - containerPort: 7979
 ---

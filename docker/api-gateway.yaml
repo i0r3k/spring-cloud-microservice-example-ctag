@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: api-gateway
-        image: 172.25.17.4:5000/msprj/api-gateway-microservice
+        image: @docker.image.prefix@/api-gateway-microservice
         ports:
         - containerPort: 10000
 ---

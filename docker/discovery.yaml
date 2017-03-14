@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: discovery
-        image: 172.25.17.4:5000/msprj/discovery-microservice
+        image: @docker.image.prefix@/discovery-microservice
         ports:
         - containerPort: 8761
 ---

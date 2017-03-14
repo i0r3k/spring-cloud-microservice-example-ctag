@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: movie-ui
-        image: 172.25.17.4:5000/msprj/movies-ui
+        image: @docker.image.prefix@/movies-ui
         ports:
         - containerPort: 9006
 ---
