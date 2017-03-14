@@ -48,8 +48,6 @@
     </dependencies>
 
     <build>
-	<filters>
-	</filters>
 	<resources>
 		<resource>
 			<filtering>true</filtering>
@@ -85,7 +83,7 @@
                 </executions>
                 <configuration>
                     <imageName>${docker.image.prefix}/${project.artifactId}</imageName>
-                    <dockerDirectory>${project.basedir}/src/main/docker</dockerDirectory>
+		    <dockerDirectory>target/classes</dockerDirectory>
                     <resources>
                         <resource>
                             <targetPath>/</targetPath>
