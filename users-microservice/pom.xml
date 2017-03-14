@@ -48,6 +48,8 @@
     </dependencies>
 
     <build>
+	<filters>
+	</filters>
 	<resources>
 		<resource>
 			<filtering>true</filtering>
