@@ -4,7 +4,7 @@ metadata:
   name: hystrix-dashboard
   namespace: msprj
 spec:
-  replicas: 1
+  replicas: @spec.replicas@
   selector:
     app: hystrix-dashboard
   template:

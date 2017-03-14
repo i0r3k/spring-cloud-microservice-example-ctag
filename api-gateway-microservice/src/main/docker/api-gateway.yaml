@@ -4,7 +4,7 @@ metadata:
   name: api-gateway
   namespace: msprj
 spec:
-  replicas: 1
+  replicas: @spec.replicas@
   selector:
     app: api-gateway
   template:
