@@ -33,5 +33,5 @@ spec:
   ports:
   - port: 7979
     targetPort: 7979
-    nodePort: 30040
+    nodePort: 31040
 
