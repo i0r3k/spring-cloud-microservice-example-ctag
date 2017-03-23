@@ -33,6 +33,12 @@
         <docker.image.prefix>172.25.17.4:5000/msprj</docker.image.prefix>
         <spec.replicas>1</spec.replicas>
         <config.git.url>http://172.25.17.7/msprj/microservice-config-dev.git</config.git.url>
+		
+        <config.git.username>gerrit</config.git.username>
+
+
+        <config.git.password>295a4b81eb8d3330</config.git.password>
+
     </properties>
 
     <dependencies>
