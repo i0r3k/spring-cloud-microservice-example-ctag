@@ -16,5 +16,5 @@ spring:
       server:
         git:
           uri: @config.git.url@ 
-          username: mingyang.cai@accenture.com
-          password: mycai111
+          username: gerrit
+          password: 295a4b81eb8d3330
