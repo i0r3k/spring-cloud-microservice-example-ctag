@@ -38,6 +38,7 @@
 
 
         <config.git.password>295a4b81eb8d3330</config.git.password>
+	  <k8s.namespace>microservice</k8s.namespace>
 
     </properties>
 
