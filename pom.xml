@@ -9,13 +9,7 @@
     <packaging>pom</packaging>
 
     <modules>       
-        <module>users-microservice</module>
-        <module>discovery-microservice</module>
-        <module>api-gateway-microservice</module>
         <module>config-microservice</module>
-        <module>hystrix-dashboard</module>
-        <module>movie-microservice</module>
-        <module>movies-ui</module>      
     </modules>
 
     <parent>
