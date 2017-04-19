@@ -16,6 +16,9 @@ spec:
       containers:
       - name: users
         image: @docker.image.prefix@/users-microservice
+        resources:
+          requests:
+            cpu: 400m
         ports:
         - containerPort: 9000
 ---
