@@ -94,7 +94,8 @@
                 </executions>
                 <configuration>
                     <imageName>${docker.image.prefix}/${project.artifactId}</imageName>
-		    <dockerDirectory>${project.basedir}/target/classes</dockerDirectory>
+		            <dockerDirectory>${project.basedir}/target/classes</dockerDirectory>
+                    <registryUrl>http://52.220.193.192:5000/v1/</registryUrl>
                     <resources>
                         <resource>
                             <targetPath>/</targetPath>
