@@ -1,6 +1,7 @@
 server:
   port: 10000
 
+
 sidecar:
   port: 8000
 
@@ -21,3 +22,6 @@ spring:
       failFast: true
 encrypt:
   failOnError: false
+
+zuul:
+  sensitiveHeaders:
