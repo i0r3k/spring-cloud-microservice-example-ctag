@@ -9,6 +9,7 @@ endpoints:
 
 server:
   port: 7979
+  context_path: /hystrix
 
 logging:
   level:
